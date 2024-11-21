@@ -7,6 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('/public/fonts/InterVariable.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/public/fonts/InterVariable-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
